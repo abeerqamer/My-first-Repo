@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#795548"
+    tools:context="com.example.android.rgihteyeglasses.doneActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RATE_ME"
+        android:textSize="24sp"
+        android:id="@+id/rating_text"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:layout_marginTop="44dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating_text"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:stepSize="1.0"
+
+        android:id="@+id/ratingBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_it"
+        android:id="@+id/helped"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/it_helped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes_it_helped"
+        android:layout_below="@+id/helped"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_it_didn_t"
+        android:layout_below="@+id/it_helped"
+        android:layout_alignLeft="@+id/it_helped"
+        android:layout_alignStart="@+id/it_helped"
+        android:id="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/last_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maybe"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_checkbox"
+        android:text="@string/exiter"
+        android:background="#90CAF9"
+        android:onClick="exiter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>

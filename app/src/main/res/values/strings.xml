@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Right EyeGlasses</string>
+    <string name="how_to_choose_right_eyeglasses">How to \n choose right \n eyeglasses</string>
+    <string name="picture_of_glass">picture of glass</string>
+    <string name="click_here">CLICK HERE</string>
+    <string name="select_your_face_shapes">SELECT YOUR FACE SHAPE</string>
+    <string name="round_glass">ROUND</string>
+    <string name="square">SQUARE</string>
+    <string name="OVALS">OVAL</string>
+    <string name="HEARTS">HEART</string>
+    <string name="oval_INFO">OVAL</string>
+    <string name="oval_information">An oval face is considered to be the ideal shape because of its balanced proportions. To keep the oval\'s natural balance, look for eyeglass frames that are as wide as (or wider than) the broadest part of the face, or walnut-shaped frames that are not too deep or too narrow.</string>
+    <string name="dones">DONE</string>
+    <string name="round_inforamtion">A round face has curved lines with the width and length in the same proportions and no angles. To make a round face appear thinner and longer, try angular narrow eyeglass frames to lengthen the face, a clear bridge that widens the eyes, and frames that are wider than they are deep, such as a rectangular shape.</string>
+    <string name="RATE_ME">PLEASE RATE OUR APPLICATION</string>
+    <string name="find_it">DID IT REALLY HELPED YOU FIND RIGHT GLASSES ?</string>
+    <string name="yes_it_helped">YES IT HELPED</string>
+    <string name="no_it_didn_t">NO IT DIDN\'T</string>
+    <string name="maybe">MAYBE</string>
+    <string name="exiter">EXIT</string>
+    <string name="square_information">A square face has a strong jaw line and a broad forehead, plus the width and length are in the same proportions. To make a square face look longer and to soften the angles, try narrow frame styles, frames that have more width than depth, and narrow ovals.</string>
+    <string name="heart_information">When choosing glasses for heart-shaped faces, the goal should be to minimize the width of the top of the face and to broaden the appearance of the chin. Look for frames that are wider than your forehead, or have prominent end points (like Clubmasters or Cat-eye shapes). You can also soften your look by choosing frames in light colors or with detailing like a tortoise or floral pattern. Heart shaped faces are quite versatile, so many different styles will suit you.</string>
+</resources>

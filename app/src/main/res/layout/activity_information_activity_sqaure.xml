@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c8728"
+    tools:context="com.example.android.righteyeglasses.informationActivity_sqaure">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/square"
+        android:textColor="#000"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_margin="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/oval_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/square"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-50dp"
+
+        />
+
+    <TextView
+        android:id="@+id/information_oval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#761d16"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginTop="-10dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/oval_shape"
+        android:text="@string/square_information"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dones"
+        android:background="#7E57C2"
+        android:layout_below="@+id/information_oval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:onClick="done_click"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.righteyeglasses.selection_of_glass">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select_your_face_shapes"
+        android:id="@+id/textView"
+        android:textColor="#666161"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:id="@+id/round_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:background="#0072bc"
+        android:text="@string/round_glass"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="60dp"
+        android:onClick="roundClick"
+        />
+
+    <Button
+        android:id="@+id/square_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:background="#0072bc"
+        android:text="@string/square"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_below="@id/round_button"
+        android:layout_marginTop="30dp"
+        android:onClick="squareClick"
+        />
+
+    <Button
+        android:id="@+id/oval_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:background="#0072bc"
+        android:text="@string/OVALS"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_below="@id/square_button"
+        android:layout_marginTop="30dp"
+        android:onClick="ovalClick"
+        />
+
+    <Button
+        android:id="@+id/heart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:background="#0072bc"
+        android:text="@string/HEARTS"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_below="@id/oval_button"
+        android:layout_marginTop="30dp"
+        android:onClick="heartClick"
+        />
+</RelativeLayout>
